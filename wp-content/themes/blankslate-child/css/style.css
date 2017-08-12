@@ -1,23 +1,23 @@
-body {margin: 0;  padding: 0; font-family: 'Noto Sans', sans-serif;}
+body {margin: 0;  padding: 0; font-family: 'Open Sans', sans-serif;}
 img { max-width: 100%;}
 a, a:focus , a:hover{text-decoration: none; }
 a:active, a:focus{outline: 0;}
 li{list-style: none; color: #fff;}
 ul{margin: 0px; padding: 0px;}
 p{font-size: 16px; color: #777777; margin: 0; font-weight: 300; }
-h2{font-size: 40px; margin: 0px; color: #1c007e; font-weight: 600;}
+h2{font-size: 40px; margin: 0px; color: #00aefa; font-weight: 600;}
 h3{font-size: 30px; color: #1c007e; margin: 0px; font-weight: 400;}
 h4{font-size: 16px; color: #1c007e; font-weight: 500;margin: 0px;}
 h5{font-size: 12px; color: #777777; margin: 0px; font-weight: 300;}
 
 
-.entry-content {float: left; width: 100%;}
+.entry-content {    background: #fff none repeat scroll 0 0;    float: left;    width: 100%;}
 .btns  a {background: #00b4f1 none repeat scroll 0 0;  border-radius: 4px;  color: #fff;  display: inline-block;  font-size: 20px;    font-weight: 400;    line-height: 1.2;    padding: 10px 15px;    text-transform: uppercase; transition:0.5s;}
 .btns  a:hover { background: #01a1de none repeat scroll 0 0;}
 .header{float: left; width: 100%; padding: 15px 0;}
 .top-right-sec { float: right;  padding-top: 25px;}
 .menu li {float: left;}
-.menu a { padding: 10px;}
+.menu a { padding: 10px; text-transform: uppercase;}
 .banner-section { background-position: center center;  background-size: cover;}
 .banner-text {  padding: 40px 0 340px; text-align: center;}
 .banner-text h2 {   color: #fff;    display: inline-block;    font-weight: bold;    text-shadow: 0 0 3px #000;}
@@ -53,7 +53,7 @@ h5{font-size: 12px; color: #777777; margin: 0px; font-weight: 300;}
 .gallery-sec .gallery-img {    margin: 60px 0 0;}
 .events-sec-home{float: left; width: 100%; background-size: cover;  background-position: 100% left;}
 .events-bottom-sec {    background: #fff none repeat scroll 0 0;    display: inline-block;    max-width: 300px;    padding: 20px;    width: 100%;}
-.events-bottom-sec select {    border: 1px solid #ddd;    float: left;    font-size: 13px;    font-weight: 600;    margin: 10px 0 !important;    padding: 8px;    text-transform: uppercase;    width: 100%;}
+.events-bottom-sec select {    border: none;    float: left;    font-size: 13px;    font-weight: 600;    margin: 10px 0 !important;    padding: 8px;    text-transform: uppercase;    width: 100%;}
 .wpcf7-list-item.first.last{margin: 0px;}
 .article-desn {    bottom: 0;    left: -270px;    max-width: 210px;    padding: 10px;    position: absolute;    transition: all 0.5s ease 0s;    z-index: 9999;}
 .articles-post { position: relative;}
@@ -64,7 +64,7 @@ h5{font-size: 12px; color: #777777; margin: 0px; font-weight: 300;}
 .articles-post { overflow: hidden;}
 .articles-post:hover .article-desn{left: 15px;}
 .feature-articles-sec{background: #eee; padding: 45px 0 0; margin: 5px 0;}
-.sitet-tittle {   background: #00adef none repeat scroll 0 0;    color: #fff;    float: left;    font-size: 50px;    padding: 10px 0;    text-align: center;    text-transform: uppercase;    width: 100%;}
+.sitet-tittle { background: #00adef none repeat scroll 0 0;  color: #fff;  float: left;  font-size: 50px;  line-height: 1;  padding: 10px 0 11px;  text-align: center;  text-transform: uppercase;  width: 100%;}
 .side-img { max-width: 300px; text-align: center; margin: 30px 0 20px;}
 .events-page-post {    background: #fff none repeat scroll 0 0;    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.5);    display: inline-block;    margin: 0 0 60px 0!important;    padding: 15px 10px 15px 405px;    width: 100%;}
 .events-page-post img {    left: 15px;    max-width: 381px;    position: absolute;    top: 0px;}
@@ -81,30 +81,56 @@ h5{font-size: 12px; color: #777777; margin: 0px; font-weight: 300;}
 .see-more a::after {    background: #eee none repeat scroll 0 0;    content: "";    height: 70px;    left: -60px;    position: absolute;    top: -20%;    width: 180px;    z-index: -1;}
 .see-more a {    background: #eee none repeat scroll 0 0;    color: #000;    display: inline-block;   line-height: 1;    max-width: 50px;    padding: 10px 0;    position: relative;    text-align: center;   z-index: 2147483647; font-size: 13px}
 .side-img > img {    width: 100%;}
-.explore-idea-sec {    background: #fff none repeat scroll 0 0;    border: 8px solid #02aef0;    border-radius: 5px;    max-width: 400px;    padding: 10px;    text-align: center;}
+.explore-idea-sec {    background: #fff none repeat scroll 0 0;    border: 8px solid #02aef0;    border-radius: 5px;    max-width: 400px;    padding: 20px 10px 30px 10px ;    text-align: center;}
 .articles-banner{background-position:100% 100%; padding: 50px 0; }
 .article-seaerch > input {    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;    border: 1px solid #bfdfea;    display: block;    float: right;    width: 80%;}
-.article-desn.article-desn-page::before {    border-width: 330px 0 0 421px;}
+.article-desn.article-desn-page::before {    border-width:280px 0 0 371px;}
 .article-desn.article-desn-page{left: -600px;  max-width: 260px;}
 .article-desn.article-desn-page p{max-width: 230px; font-size: 17px;}
 .article-desn.article-desn-page  h4{font-size: 22px;}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.explore-idea-sec h2 {    font-weight: 300;    text-transform: uppercase;}
+.explore-text h3{font-size: 20px;}
+.explore-text {padding: 20px 0 0; }
+.events-date{background: #fff; text-align: center; padding: 10px 0 20px;}
+.events-date h2{color: #42b4f2; text-transform: uppercase;}
+.events-week { text-align: center; background: #fff;}
+.events-week li{display: inline-block;}
+.events-week a { display: inline-block;    padding: 10px 15px;  color: #a4a4a4;  text-transform: uppercase; font-size: 14px;}
+.events-week a:hover { background: #42b3ed none repeat scroll 0 0;  color: #fff;}
+.events-week li:last-child a {    display: inline-block;    line-height: 0;    padding: 5px 11px;    position: relative;    text-align: center;    top: -8px;    vertical-align: top;}
+.events-week li:first-child a {    display: inline-block;    line-height: 0;    padding: 5px 11px;    position: relative;    text-align: center;    top: -8px;    vertical-align: top;}
+.events-bottom-sec .wpcf7-form-control-wrap {  border-top: 1px solid #000;}
+.classes-sec{padding: 60px 0;}
+.classes-post img {    left: 0;    max-width: 250px;    position: absolute; top: 0;}
+.classes-post .btns > a {    font-size: 14px;    padding: 5px 18px;    position: absolute;    right: 10px;    top: 20px;}
+.classes-post {    background: #fff none repeat scroll 0 0;    border: 1px solid #eee;    float: left;    padding: 16px 120px 16px 265px;    position: relative;    width: 100%;}
+.classes-post .event-text-right img {    position: relative;    right: 0;    top: 0;}
+.classes-post h2{font-size: 20px; margin: 0 0 10px;}
+.classes-post h3{font-size: 18px;margin: 0 0 10px;}
+.classes-post h4{font-size: 18px; display: inline-block; line-height: 1.5;}
+.classes-post p{font-size: 12px; display: inline-block;}
+.class-desn {   display: inline-block;    float: right;    font-size: 12px;    max-width: 420px;    padding-right: 50px; position: relative;}
+.class-desn .event-text-right {    position: absolute ;    right: 0 ;    bottom: 10px;}
+.class-main-post{float: left;width: 100%;}
+.classes-post {margin: 0 0 15px;}
+.classes-post  .btns {    float: left;    width: 100%;}
+.explore-idea-sec.Subscribe-banner {    float: right;    max-width: 450px;    width: 100%;    padding: 30px 0 70px;}
+.subscribe-services { padding: 20px 0;    text-align: center;}
+.subscribe-services h4{font-size: 20px; color: #000;}
+.subscribe-services p{font-size: 13px;  padding: 10px 0;}
+.subscribe-services .subscribe-icon{text-align: center!important;}
+.about-head-sec{text-align: center; max-width: 500px; margin:0 auto; }
+.about-client {     padding: 90px 0 90px 500px;}
+.about-client img {    border-radius: 50%;    left: 0;    max-width: 460px;    min-height: 460px;   position: absolute;    top: 0;}
+.our-team-strip{text-align: center; }
+.our-team-strip h3{color: #fff;}
+.our-team .team-img img {    border-radius: 50%;    max-width: 250px;    min-height: 250px;}
+.our-team .wpb_single_image.wpb_content_element.vc_align_left.team-img{text-align: center;}
+.our-client-name{text-align: center; font-size: 15px; text-transform: uppercase; }
+.our-client-name h4{font-weight: 600; font-size: 15px; color: #000;}
+.social i {    font-size: 20px; color: #000;}
+.our-logoes {    background: #dbd8d3 none repeat scroll 0 0; padding: 15px 0; margin: 20px 0 40px;}
+.our-logoes .logoes-img{margin: 0;}
 .footer-main {    background: #2a394c none repeat scroll 0 0;    float: left;    padding: 40px 0;    width: 100%;}
 .footer-main h2 {  color: #fff;  font-size: 18px;  font-weight: 300;  text-transform: uppercase; margin: 0 0 20px; position: relative;}
 .footer-main h2::before {    border-top: 1px solid #465870;    content: "";    position: absolute;    right: 0;    top: 50%;    transform: translate(0px, -50%);    width: 55%;}
@@ -132,4 +158,23 @@ h5{font-size: 12px; color: #777777; margin: 0px; font-weight: 300;}
 @media(max-width:992px){
 	.events-page-post{padding:10px; }
 	.events-page-post img {    left: 0;    max-width: 100%;    position: relative;    top: 0;    width: 100%;}
+	.classes-post img {	    position: relative;	max-width: 100%;}
+	.classes-post .btns > a {  position: relative;   right: 0;  top: 0;	}
+	.classes-post{padding: 15px;}
+
+
+
+}
+
+
+@media(max-width:767px){
+	.events-bottom-sec { float: none;  margin: 0 auto;  display: inherit;	}
+	.side-img { margin: 30px auto;}
+	.classes-post  .btns {    margin: 10px 0;}
+}
+
+
+
+@media(max-width:640px){
+	.footer-main .xoxo li {	    padding: 10px;	    width: 100%;	}
 }
